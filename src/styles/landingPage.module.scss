@@ -1,15 +1,15 @@
 .landingpage__wrapper{
-    .image__container{
-        // width: 50%;
-    }
-    .name__container{
-        font-weight: 500;
-        font-size: 5rem;
-        
-    }
+    width: 100%;
+
 }
 @media only screen and (max-width: 600px) {
     .landingpage__wrapper {
       flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+      .image{
+
+          width:50%;
+      }
     }
   }

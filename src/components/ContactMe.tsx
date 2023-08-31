@@ -5,7 +5,7 @@ import styles from "../styles/contactMe.module.scss";
 function ContactMe() {
   return (
     <div className="p-3 mt-5">
-      <div className="border border-success p-5 ">
+      <div className="border border-success p-4 ">
         <div className="h3 text-white text-decoration-underline ">
           Contact Me
         </div>
@@ -48,7 +48,7 @@ function ContactMe() {
                 placeholder="Write you message"
               ></textarea>
             </div>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="d-flex align-items-end">
               Submit
             </Button>
           </Form>
