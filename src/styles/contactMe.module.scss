@@ -1,0 +1,30 @@
+.flex__container{
+    width: 100%;
+    .icons__container{
+        width: 30%;
+    }
+    .or__container{
+        width: 20%;
+        padding: 3rem;
+    }
+    .form{
+        width: 50%  ;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .flex__container {
+        .icons__container{
+            margin-top: 1rem;
+            width: 100%;
+        }
+        flex-direction: column;
+        justify-content: center;
+      flex-wrap: wrap;
+      .or__container{
+        padding: 1rem;
+      }
+      .form{
+        width: 100%;
+      }
+    }
+  }

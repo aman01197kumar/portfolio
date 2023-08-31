@@ -4,6 +4,7 @@ import LandingPage from './components/LandingPage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 
 // import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
     <AboutMe/>
     <Projects/>
     <ContactMe/>
+    <Footer/>
     </div>
   );
 }
