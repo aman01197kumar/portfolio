@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
     .flex__container {
       width: 100%;
-      align-items: center;
+      align-items: flex-start;
       flex-direction: column;
       justify-content: center;
       flex-wrap: wrap;

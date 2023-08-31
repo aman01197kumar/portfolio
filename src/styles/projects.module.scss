@@ -1,0 +1,10 @@
+.flex__container{
+    padding: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .flex__container {
+    flex-direction: column;
+    justify-content: center;
+
+    }
+  }
