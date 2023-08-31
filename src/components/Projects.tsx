@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../styles/projects.module.scss'
 import { projectsData } from '../assets/Data/projectsData'
 import CustomCard from './CustomCard'

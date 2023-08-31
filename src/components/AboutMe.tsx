@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/aboutMe.module.scss";
 import { myData } from "../assets/Data/myData";
 

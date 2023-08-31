@@ -1,5 +1,5 @@
-import React from 'react';
-import { Image,Col } from 'react-bootstrap'
+
+import { Image } from 'react-bootstrap'
 import myself from '../img/myself.jpeg'
 import styles from '../styles/landingPage.module.scss'
 function LandingPage() {
