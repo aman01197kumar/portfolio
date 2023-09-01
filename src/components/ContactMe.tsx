@@ -13,13 +13,9 @@ function ContactMe() {
           className={`d-flex justify-content-between align-items-center ${styles.flex__container}`}
         >
           <div className={styles.icons__container}>
-            <div className="fs-5 text-secondary mb-2">Contact me on</div>
-            <div className="d-flex justify-content-between">
-              <i className="bi bi-linkedin text-primary-emphasis fs-3"></i>
-              <i className="bi bi-instagram text-primary fs-3"></i>
-              <i className="bi bi-facebook text-primary fs-3"></i>
-              <i className="bi bi-whatsapp text-primary fs-3"></i>
-              <i className="bi bi-envelope-at text-primary fs-3"></i>
+            <div className="d-flex justify-content-center">
+              <a href="https://www.linkedin.com/in/aman-kumar-451398183/" target="blank"><i className={`bi bi-linkedin`}/></a>
+              
             </div>
           </div>
           <div

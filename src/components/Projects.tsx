@@ -10,7 +10,7 @@ function Projects() {
         <div className="h3 text-white text-decoration-underline">My Projects</div>
         <div className={`d-flex justify-content-between ${styles.flex__container}`}>
         {projectsData?.map(item => (
-        <div className="mt-3" >
+        <div className="mt-3 z-index-0" >
           <CustomCard
           key={item?.id}
             desc={item?.desc}
