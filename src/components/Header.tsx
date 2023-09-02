@@ -11,7 +11,7 @@ import Skills from "./Skills";
 function Header() {
   return (
     <>
-      <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="position-fixed w-100 z-index-1111">
+      <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="position-fixed w-100 z-3">
         <Container fluid>
           <Navbar.Brand href="#">Aman Kumar</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
